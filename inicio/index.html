@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>Portfolio da Bela</title>
 </head>
 <body>
     
     <!-- nav bar -->
     <div class="navBar">
-       <img class="logoVRosaExtendida" src="img/logoVRosaExtendida.png" alt="">
+       <img id="logoVRosaExtendida" src="img/logoVRosaExtendida.png" alt="">
 
        <div class="menu">
            <div class="menuOpcoes" id="menuOpcoesTecnico">Técnico
@@ -26,7 +28,7 @@
 
            <div class="menuOpcoes" id="menuOpcoesMaterias">Matérias
                <div class="materiazinhas">
-                   <p class="materia">Humanas</p>
+                   <p class="materia" onclick="Humanas()">Humanas</p>
                    <p class="materia">Linguagens</p>
                    <p class="materia">Matemática</p>
                    <p class="materia">Natureza</p>
@@ -38,14 +40,13 @@
     </div>
 
     <!-- capa -->
-
     <div class="capa">
         <div class="capaEsquerda">
-            <p class="textoVirado">BELAB</p>
+            <div id="particles-js"></div> 
+            <p class="textoVirado" unselectable="on" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">BELAB</p> <!-- Texto fica por CIMA -->
         </div>
-
         <div class="capaDireita">
-            <p>PORTFOLIO</p>
+            <p id="typed-text">PORTFOLIO</p>
         </div>
     </div>
 
@@ -63,20 +64,21 @@
         </div>
         <div>
             <p class="titulo">Quem sou eu?</p>
-            <p class="corpo"> textinho dizendo quem sou eu e pq eu faço o que faço e quero o que quero (pode copiar do antigo se quiser ouj nao nao sei sua inspiração)
-                quando clica em sobre mim vem pra ca                
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis condimentum lorem, ut sodales dolor elementum sed. Nulla facilisi. 
-                Donec vitae erat ac nisi pulvinar malesuada. Duis eu erat lacinia, consectetur dolor eu, sollicitudin velit. Pellentesque venenatis nulla est, eu vehicula </p>
+            <p class="corpo"> Me chamo Isabela, tenho dezessete anos e nasci em Florianópolis, a capital de Santa Catarina. Sou uma pessoa tranquila, mas movida a metas — sempre em busca dos meus objetivos e do crescimento ao longo da minha jornada.           Amo arte em todas as suas formas: música, pintura, fotografia... Sou fascinada por livros de diversos gêneros, filmes, jogos e edição. Também gosto de me manter atualizada sobre assuntos variados, porque acredito que conhecimento nunca é demais.
+            Valorizo muito as pessoas ao meu redor e me esforço para cultivar relações verdadeiras. Para mim, estar presente e fortalecer laços é essencial — afinal, bons relacionamentos são feitos de cuidado e reciprocidade.
+            Além dos meus hobbies, estou focada no autodesenvolvimento e tenho um grande desejo de impactar o mundo através da programação. Quero que minha futura profissão vá além dos códigos: pretendo criar soluções que facilitem a vida das pessoas ou até mesmo enfrentem desafios sociais. A tecnologia, pra mim, é uma grande ferramenta para mudanças positivas.
+            No fim, vejo o futuro como um campo de possibilidades.</p>
+            <div class="botoes">
+                <button id="primeiroBotao" class="buttonRosa">Certificados</button>
+                <button class="buttonRosa" onclick="PorfolioAntigo()">Último portfólio</button>
+                <button class="buttonRosa">Carrd pessoal</button>
+
+            </div>
         </div>
 
     </div>
 
     <!-- CONTAINER ESPECIALIDADES E HABILIDADES -->
-
-    <div class="divisoriaBacana">
-        <p>.</p>
-    </div>
-
     <div class="container3">
         <img class="starCinza" src="img/starCinza.png" alt="">
         <img src="img/especialidades/3.png" alt="Excel">
@@ -89,10 +91,6 @@
         <img src="img/especialidades/10.png" alt="Java Script">
         <img class="starCinza" src="img/starCinza.png" alt="">
     </div>
-   
-    <div class="divisoriaBacana">
-        <p>.</p>
-    </div>
 
     <div class="container4">
         
@@ -100,6 +98,5 @@
 
 </body>
 
-<script src="index.js"></script>
-
+<script src="script.js"></script>
 </html>
