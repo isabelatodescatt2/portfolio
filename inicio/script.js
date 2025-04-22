@@ -102,6 +102,15 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "../materias/natureza.html";
     }
 
+    function ModelagemS(){
+        window.location.href = "../técnico/modelagemsistemas.html"
+    }
+
+    function IOT(){
+        window.location.href = "../técnico/iot.html"
+    }
+
+//HUMANAS ------------------------------------------
 // humanas 1
 function hlinhatempo() {
     window.open("https://www.canva.com/design/DAGkmyHVXIM/yv9fFlpIAqG5bwoHLXq5Rw/edit", "_blank");
@@ -111,14 +120,27 @@ function hseminario() {
     window.open("https://www.canva.com/design/DAGkmyHVXIM/yv9fFlpIAqG5bwoHLXq5Rw/edit", "_blank");
 }
 
+// LINGUAGENS -------------------------------------
 // linguagens 1
 
+// NATUREZA ---------------------------------------
 // natureza 1
 
+// MATEMÁTICA -------------------------------------
 // matematica 1
 function hfilme() {
     window.open("https://docs.google.com/document/d/1WzZrqpXLnqumy7fNdOUGpCNkiHbZsNP7Q1WF8R-HteY/edit?usp=sharing", "_blank");
 }
 function hjogo() {
     window.open("https://www.canva.com/design/DAGk4mGajNg/uZ15Zuv5_thd3E7G_Aw-5Q/view?utm_content=DAGk4mGajNg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h294bf37923", "_blank");
+}
+
+// MODELAGEM DE SISTEMAS ----------------------------
+// modelagem de sistemas 1
+function mshamburgueria() {
+    window.open("https://docs.google.com/spreadsheets/d/1aQaSxqGmsIqfTMy1x9_lTEjevl1-jZKYrTuMfgJw-8M/edit?usp=sharing", "_blank");
+}
+
+function mssaapresentacao() {
+    window.open("https://www.canva.com/design/DAGiBSdVkqA/RR62FQMow1BQ4W3IsUjnRQ/edit?utm_content=DAGiBSdVkqA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
 }
