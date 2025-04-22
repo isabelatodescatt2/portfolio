@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelagem de Sistemas</title>
+    <link rel="stylesheet" href="../inicio/stylesheet.css">
+</head>
+<body>
+    <div class="navBar">
+        <img id="logoVRosaExtendida" onclick="voltar()" src="../inicio/img/logoVRosaExtendida.png" src="../inicio/img/logoVRosaExtendida.png" alt="">
+ 
+        <div class="menu">
+            <div class="menuOpcoes" id="menuOpcoesTecnico">Técnico
+                <div class="materiazinhas">
+                    <p class="materia" onclick="ModelagemS()">IoT</p>
+                    <p class="materia" onclick="IOT()">Modelagem de Sistemas</p>
+                </div>
+            </div>
+ 
+            <div class="menuOpcoes" id="menuOpcoesMaterias">Matérias
+                <div class="materiazinhas">
+                    <p class="materia" onclick="Humanas()">Humanas</p>
+                    <p class="materia" onclick="Linguagens()">Linguagens</p>
+                    <p class="materia" onclick="Matematica()">Matemática</p>
+                    <p class="materia" onclick="Natureza()">Natureza</p>
+                </div>
+            </div>
+ 
+            <div class="menuOpcoes" id="menuOpcoesSobreMim">Sobre mim</div>
+        </div>
+     </div>
+
+     <div class="capaMaterias">
+        <img src="imgs/humanas.png" alt="Imagem representativa de Humanas">
+    </div>
+
+    <!-- SEÇÃO DE TRIMESTRES -->
+    <div class="trimestres-container">
+        <div class="abas-trimestres">
+            <button class="aba-trimestre ativo" data-trimestre="1">1º Trimestre</button>
+            <button class="aba-trimestre" data-trimestre="2">2º Trimestre</button>
+            <button class="aba-trimestre" data-trimestre="3">3º Trimestre</button>
+        </div>
+        
+        <!-- 1º TRIMESTRE -->
+        <div class="conteudo-trimestre ativo" data-trimestre="1">
+            <h2>1º Trimestre</h2>
+
+            <div class="atividade">
+                <div class="atividade-imagem">
+                    <img src="imgs/ativHumanas/linhadotempo.png" alt="Hamburgueria: Planilha de Requisitos e Regras de Negócio 
+                    ">
+                </div>
+                <div class="atividade-conteudo">
+                    <h3 class="atividade-titulo">Hamburgueria: Planilha de Requisitos e Regras de Negócio</h3>
+                    <div class="atividade-info">
+                        <span class="atividade-data">Data de entrega: 26/02/2025</span>
+                        <span class="atividade-data">Hablidades: H4, H7, H8</span>
+                    </div>
+                    <p class="atividade-descricao">Criamos 10 regras de négocio para um sistema fictício de hamburgueria no google planilhas</p>
+                    <button class="botao-detalhes" onclick="mshamburgueria()">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="atividade">
+                <div class="atividade-imagem">
+                    <img src="imgs/ativHumanas/seminario.png" alt="Seminario de Cuba">
+                </div>
+                <div class="atividade-conteudo">
+                    <h3 class="atividade-titulo">S.A - Apresentação 01</h3>
+                    <div class="atividade-info">
+                        <span class="atividade-data">Data de entrega: 17/04/2025</span>
+                        <span class="atividade-data">Habilidades: H1, H2, H3, H4, H6, H7</span>
+                    </div>
+                    <p class="atividade-descricao">Teve como objetivo criar uma apresentação sobre a ideia do nosso projeto de S.A. (situação de aprendizagem).</p>
+                    <button class="botao-detalhes" onclick="mssaapresentacao()">Ver mais</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 2º TRIMESTRE -->
+        <div class="conteudo-trimestre" data-trimestre="2">
+            <h2>2º Trimestre</h2>
+            <p class="trimestre-vazio">Nada aqui por enquanto...</p>
+        </div>
+        
+        <!-- 3º TRIMESTRE -->
+        <div class="conteudo-trimestre" data-trimestre="3">
+            <h2>3º Trimestre</h2>
+            <p class="trimestre-vazio">Nada aqui por enquanto...</p>
+        </div>
+    </div>
+</body>
+
+<script src="../inicio//script.js"></script>
+</html>
