@@ -123,8 +123,44 @@ function hseminario() {
 // LINGUAGENS -------------------------------------
 // linguagens 1
 
+function lpadlet1() {
+    window.open("https://drive.google.com/file/d/1-Ww2r_yqL4iEePbqkl6XxfcznpTx8B8G/view?usp=sharing", "_blank");
+}
+
+function lredacao() {
+    window.open("https://drive.google.com/file/d/16Te-K6GfpIJ2uDXj3t8bLRlrcEpojQ5g/view?usp=sharing", "_blank");
+}
+
+function lconto() {
+    window.open("https://www.canva.com/design/DAGj5Sonf6c/YE6cRkLlNffdtqbSPKL_aA/view?utm_content=DAGj5Sonf6c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3d602970b2", "_blank");
+}
+
+function lbiografia() {
+    window.open("https://www.canva.com/design/DAGlaBKN5-U/VR6-L391WDeoKx9QZ2Nu-w/view?utm_content=DAGlaBKN5-U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd005f3b0f1", "_blank");
+}
+
+function lrepertorio() {
+    window.open("https://sites.google.com/estudante.sesisenai.org.br/redacao-acessivel/in%C3%ADcio", "_blank");
+}
+
+
 // NATUREZA ---------------------------------------
 // natureza 1
+function npoluicao() {
+    window.open("https://docs.google.com/document/d/1-NDSGgE1z0HIKrvxqoX81HYRPVl-2l6o-6NJ9zC0aqU/edit?usp=sharing", "_blank");
+}
+
+function nestequiometria() {
+    window.open("https://www.canva.com/design/DAGht1RtGYQ/Hd5Lu6rqdWXOHf9T3hxhow/view?utm_content=DAGht1RtGYQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h479f1af109", "_blank");
+}
+
+function nradioatividade() {
+    window.open("https://www.canva.com/design/DAGgAxpa-Ag/JyZDSHJwwpwNui5HnxfRaA/edit?utm_content=DAGgAxpa-Ag&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
+}
+
+function neletrostatica() {
+    window.open("https://www.canva.com/design/DAGlZ_FdyiE/MxgKluDHUdon-pOM_5xcgg/view?utm_content=DAGlZ_FdyiE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4f61ca27dd", "_blank");
+}
 
 // MATEMÁTICA -------------------------------------
 // matematica 1

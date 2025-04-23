@@ -3,11 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Natureza</title>
     <link rel="stylesheet" href="../inicio/stylesheet.css">
 </head>
 <body>
-    
+    <div class="navBar">
+        <img id="logoVRosaExtendida" onclick="voltar()" src="../inicio/img/logoVRosaExtendida.png" src="../inicio/img/logoVRosaExtendida.png" alt="">
+ 
+        <div class="menu">
+            <div class="menuOpcoes" id="menuOpcoesTecnico">Técnico
+                <div class="materiazinhas">
+                    <p class="materia" onclick="IOT()">IoT</p>
+                    <p class="materia" onclick="ModelagemS()">Modelagem de Sistemas</p>
+                </div>
+            </div>
+ 
+            <div class="menuOpcoes" id="menuOpcoesMaterias">Matérias
+                <div class="materiazinhas">
+                    <p class="materia" onclick="Humanas()">Humanas</p>
+                    <p class="materia" onclick="Linguagens()">Linguagens</p>
+                    <p class="materia" onclick="Matematica()">Matemática</p>
+                    <p class="materia" onclick="Natureza()">Natureza</p>
+                </div>
+            </div>
+ 
+            <div class="menuOpcoes" id="menuOpcoesSobreMim">Sobre mim</div>
+        </div>
+     </div>
+
+     <div class="capaMaterias">
+        <img src="imgs/humanas.png" alt="Imagem representativa de Humanas">
+    </div>
+
+    <!-- SEÇÃO DE TRIMESTRES -->
+    <div class="trimestres-container">
+        <div class="abas-trimestres">
+            <button class="aba-trimestre ativo" data-trimestre="1">1º Trimestre</button>
+            <button class="aba-trimestre" data-trimestre="2">2º Trimestre</button>
+            <button class="aba-trimestre" data-trimestre="3">3º Trimestre</button>
+        </div>
+        
+        <!-- 1º TRIMESTRE -->
+        <div class="conteudo-trimestre ativo" data-trimestre="1">
+            <h2>1º Trimestre</h2>
+
+            <div class="atividade">
+                <div class="atividade-imagem">
+                    <img src="imgs/ativMatematica/quebrandoabanca.png" alt="Filme Quebrando a banca">
+                </div>
+                <div class="atividade-conteudo">
+                    <h3 class="atividade-titulo">Apresentação sobre os tipos de poluição</h3>
+                    <div class="atividade-info">
+                        <span class="atividade-data">Data de entrega: 14/02/2025</span>
+                        <span class="atividade-data">Habilidades: C1 - H1, H2 e H4</span>
+                    </div>
+                    <p class="atividade-descricao">Realizamos uma pesquisa sobre poluição, após analisar imagens e sobre sinais de poluição na natureza.</p>
+                    <button class="botao-detalhes" onclick="npoluicao()">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="atividade">
+                <div class="atividade-imagem">
+                    <img src="imgs/ativMatematica/criandoabanca.png" alt="Criando a Banca (Jogo)">
+                </div>
+                <div class="atividade-conteudo">
+                    <h3 class="atividade-titulo">Relatório sobre Estequiometria e a Indústria Brasileira</h3>
+                    <div class="atividade-info">
+                        <span class="atividade-data">Data de entrega: 21/03/2025 </span>
+                        <span class="atividade-data">Habilidades: C2 - H7, H9 e H10</span>
+                    </div>
+                    <p class="atividade-descricao">Teve como objetivo criar uma apresentação na plataforma "Canva" sobre os estudos e pesquisas realizados sobre Estequiometria e a Indústria Brasileira.</p>
+                    <button class="botao-detalhes" onclick="nestequiometria()">Ver mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="atividade">
+            <div class="atividade-imagem">
+                <img src="imgs/ativMatematica/criandoabanca.png" alt="Criando a Banca (Jogo)">
+            </div>
+            <div class="atividade-conteudo">
+                <h3 class="atividade-titulo">Apresentação sobre Radioatividade</h3>
+                <div class="atividade-info">
+                    <span class="atividade-data">Data de entrega: 28/02/2025 </span>
+                    <span class="atividade-data">Habilidades: C1- H1, H3 e H4</span>
+                </div>
+                <p class="atividade-descricao">Criamos uma apresentação na plataforma "Canva" sobre os estudos e pesquisas realizados sobre Radioatividade</p>
+                <button class="botao-detalhes" onclick="nradioatividade()">Ver mais</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="atividade">
+            <div class="atividade-imagem">
+                <img src="imgs/ativMatematica/criandoabanca.png" alt="Criando a Banca (Jogo)">
+            </div>
+            <div class="atividade-conteudo">
+                <h3 class="atividade-titulo">Apresentação sobre Radioatividade</h3>
+                <div class="atividade-info">
+                    <span class="atividade-data">Data de entrega: 07/04/2025 </span>
+                    <span class="atividade-data">Habilidades: ???</span>
+                </div>
+                <p class="atividade-descricao">Resumo sobre eletrostática, sais minerais e início das Leis de Ohm</p>
+                <button class="botao-detalhes" onclick="neletrostatica()">Ver mais</button>
+            </div>
+            </div>
+        </div>
+        
+        <!-- 2º TRIMESTRE -->
+        <div class="conteudo-trimestre" data-trimestre="2">
+            <h2>2º Trimestre</h2>
+            <p class="trimestre-vazio">Nada aqui por enquanto...</p>
+        </div>
+        
+        <!-- 3º TRIMESTRE -->
+        <div class="conteudo-trimestre" data-trimestre="3">
+            <h2>3º Trimestre</h2>
+            <p class="trimestre-vazio">Nada aqui por enquanto...</p>
+        </div>
+    </div>
 </body>
+
 <script src="../inicio//script.js"></script>
 </html>
