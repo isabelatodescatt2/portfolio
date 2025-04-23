@@ -33,6 +33,10 @@ function PorfolioAntigo() {
     window.open("https://portfoliobela.carrd.co/", "_blank");
 }
 
+function certificados() {
+    window.open("https://drive.google.com/drive/folders/18C_o4lT5eZB5jFXbtkOBe80lW6eBLR0R?usp=sharing", "_blank");
+}
+
 // matérias
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -83,6 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
     // direcionar abars
+    
+
     function voltar() {
         window.location.href = "../inicio/index.html";
     }
@@ -117,7 +123,7 @@ function hlinhatempo() {
 }
 
 function hseminario() {
-    window.open("https://www.canva.com/design/DAGkmyHVXIM/yv9fFlpIAqG5bwoHLXq5Rw/edit", "_blank");
+    window.open("https://www.canva.com/design/DAGe_O8CbEs/6RP_GAmoGstsVPjevzo0kg/view?utm_content=DAGe_O8CbEs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h682aa8898b", "_blank");
 }
 
 // LINGUAGENS -------------------------------------
