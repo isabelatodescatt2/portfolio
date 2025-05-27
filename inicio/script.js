@@ -133,6 +133,10 @@ function lpadlet1() {
     window.open("https://drive.google.com/file/d/1-Ww2r_yqL4iEePbqkl6XxfcznpTx8B8G/view?usp=sharing", "_blank");
 }
 
+function lrevista() {
+    window.open("https://www.figma.com/proto/Xr1vVrH9ObO6Fh6fD8npN0/Litera---Revista-Liter%C3%A1ria?node-id=1-2&p=f&t=TsgivSrnxjLIri3F-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2", "_blank");
+}
+
 function lredacao() {
     window.open("https://drive.google.com/file/d/16Te-K6GfpIJ2uDXj3t8bLRlrcEpojQ5g/view?usp=sharing", "_blank");
 }
