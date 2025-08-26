@@ -126,6 +126,20 @@ function hseminario() {
     window.open("https://www.canva.com/design/DAGe_O8CbEs/6RP_GAmoGstsVPjevzo0kg/view?utm_content=DAGe_O8CbEs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h682aa8898b", "_blank");
 }
 
+//humanas 2
+function hlisa() {
+    window.open("https://www.canva.com/design/DAGsfMU_E0c/lKRk3ex-26nInOxlEOon3Q/view?utm_content=DAGsfMU_E0c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6892d31d4c", "_blank");
+}
+
+function zambia(){
+    widow.open("https://docs.google.com/document/d/1hUO2Eff4n_IOnsie6xJBAvVQHoHod5HlFBs_uwzxSU4/edit?tab=t.0#heading=h.5wzlrwd6gow9", "_blank");
+}
+
+function hcarrsholocausto(){
+    window.open("https://docs.google.com/document/d/1d3O3XmKtYSS25i-Fzkw_3nCgDWE78whzZMmhGYmgCJk/edit?usp=sharing", "_blank");
+}
+
+
 // LINGUAGENS -------------------------------------
 // linguagens 1
 
@@ -153,6 +167,11 @@ function lrepertorio() {
     window.open("https://sites.google.com/estudante.sesisenai.org.br/redacao-acessivel/in%C3%ADcio", "_blank");
 }
 
+// linguagens 2
+function lingles(){
+    window.open("https://www.canva.com/design/DAGvehfPmyk/l0LDxXGqoXqaUgE1Ta6OXg/view?utm_content=DAGvehfPmyk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcdd00d7ff9", "_blank");
+}
+
 
 // NATUREZA ---------------------------------------
 // natureza 1
@@ -172,6 +191,19 @@ function neletrostatica() {
     window.open("https://www.canva.com/design/DAGlZ_FdyiE/MxgKluDHUdon-pOM_5xcgg/view?utm_content=DAGlZ_FdyiE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4f61ca27dd", "_blank");
 }
 
+// natureza 2
+function autoralcamp(){
+    window.open("https://enoisgroup.my.canva.site/campo-magn-tico-terrestre-e-auroras", "_blank");
+}
+
+function nglossario(){
+    window.open("https://www.canva.com/design/DAGqs-VITyM/dKURKltFZV0_jpFOit5o2A/view?utm_content=DAGqs-VITyM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he5421b394c&authuser=0", "_blank");
+}
+
+function nmapasistemas(){
+    window.open("https://www.canva.com/design/DAGsAwdeck4/OdFwJ2pXMGdeDWo0ShGsQA/view?utm_content=DAGsAwdeck4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8036732936", "_blank");
+}
+
 // MATEMÁTICA -------------------------------------
 // matematica 1
 function hfilme() {
@@ -179,6 +211,11 @@ function hfilme() {
 }
 function hjogo() {
     window.open("https://www.canva.com/design/DAGk4mGajNg/uZ15Zuv5_thd3E7G_Aw-5Q/view?utm_content=DAGk4mGajNg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h294bf37923", "_blank");
+}
+
+// matematica 2
+function hestatistica(){
+    window.open("https://www.canva.com/design/DAGr-EVPQCk/ZjQpA2GnV510C02McZORvg/view?utm_content=DAGr-EVPQCk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h797bf463df&authuser=0", "_blank");
 }
 
 // MODELAGEM DE SISTEMAS ----------------------------
