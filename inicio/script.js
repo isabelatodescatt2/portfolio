@@ -116,6 +116,10 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "../técnico/iot.html"
     }
 
+    function BancoDados(){
+        window.location.href = "../técnico/bancodedados.html"
+    }
+
 //HUMANAS ------------------------------------------
 // humanas 1
 function hlinhatempo() {
@@ -226,4 +230,15 @@ function mshamburgueria() {
 
 function mssaapresentacao() {
     window.open("https://www.canva.com/design/DAGiBSdVkqA/RR62FQMow1BQ4W3IsUjnRQ/edit?utm_content=DAGiBSdVkqA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
+}
+
+// modelagem de sistemas 2
+function mswireframe(){
+    window.open("https://www.figma.com/design/XjsNTo38jiJkwaVvhEPuwM/EcoVigia?node-id=0-1&t=x7K2ALuhRV5YhzwJ-1", "_blank");
+}
+
+// BANCO DE DADOS --------------------------------
+// banco de dados 2
+function bdbrmodelo(){
+    window.open("https://docs.google.com/document/d/1-JJ_iRPeXT4c-dePoMTHipe9ByR5kSyHn60UaOc5asM/edit?usp=sharing", "_blank");
 }
